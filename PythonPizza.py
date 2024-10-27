@@ -28,6 +28,6 @@ elif size == "L" and pepperoni == "N" and extra_cheese == "Y":
 elif size == "L" and pepperoni == "N" and extra_cheese == "N":
     bill = 25
 else:
-    bill=0
+    print("You typed the wrong inputs.")
 
 print(f"Your final bill is: ${bill}.")
